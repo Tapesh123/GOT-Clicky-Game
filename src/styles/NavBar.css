@@ -1,0 +1,43 @@
+.nav-item{
+    text-align:center;
+  }
+
+  .nav-item {
+     /* Chrome, Safari, Opera */
+    -webkit-animation: nav-item 3s infinite; 
+    
+    /* Internet Explorer */
+    -ms-animation: nav-item 3s infinite;
+    
+    /* Standar Syntax */
+    animation: nav-item 3s infinite; 
+  }
+  
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes nav-item{
+      20%{color: red;}
+      40%{color: yellow;}
+      60%{color: green;}
+      80%{color: blue;}
+      100%{color: orange;}	
+  }
+  /* Internet Explorer */
+  @-ms-keyframes nav-item{
+      20%{color: red;}
+      40%{color: yellow;}
+      60%{color: green;}
+      80%{color: blue;}
+      100%{color: orange;}	
+  }
+  
+  /* Standar Syntax */
+  @keyframes nav-item{
+      5%{color: red;}
+      35%{color: yellow;}
+      65%{color: green;}
+      85%{color: blue;}
+      0%{color: orange;}	
+  }
+  body{
+    background-image: url(https://images5.alphacoders.com/637/637668.jpg);
+  }
