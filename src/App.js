@@ -22,7 +22,7 @@ class App extends Component {
         score: 0,
         isClicked: []
       });
-      alert("Oops! Better luck next time!!");
+      alert("Sorrys! Better luck next time!!");
     } else {
       this.setState(
         { isClicked: [...this.state.isClicked, id] });

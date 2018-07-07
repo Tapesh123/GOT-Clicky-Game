@@ -5,10 +5,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <h1 className="nav-item">
-          Clicky Game
-        </h1>
-        <div className="nav-item">Welcome to the clicky game</div>
+        <h2 className="nav-item">
+          Clicky - A Memory Game
+        </h2>
+        <div className="nav-item"><h1>Welcome To Game of Thrones Clicky Game</h1></div>
         <h3 className="nav-item">
           Current Score: { this.props.score } | 
           High Score: { this.props.highScore } 

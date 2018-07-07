@@ -31,10 +31,10 @@ export default class Main extends Component {
     return (
       <div className="main">
           <div className="Jumbotron">
-            <p>
-              Click on the image, but only once!
+            <p><h4>
+              Click on any image, but only once!
               
-            </p>
+           </h4> </p>
             
 
           </div>
